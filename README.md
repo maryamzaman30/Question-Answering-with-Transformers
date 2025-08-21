@@ -57,7 +57,7 @@ Start the Streamlit app:
 streamlit run app.py --server.port 5000
 ```
 
-The application will open in your browser at `http://localhost:5000`
+The application will open in your browser at `http://localhost:5000` or `http://localhost:8501`
 
 **Note**: On first use, models will be downloaded from Hugging Face (may take 2-5 minutes). Subsequent uses will be much faster as models are cached locally.
 
