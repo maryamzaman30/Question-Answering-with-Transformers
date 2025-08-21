@@ -3,14 +3,17 @@ import time
 import os
 import json
 
+# Environment flags must be set before importing any Transformers-related code
+os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")  # 0: all, 1: INFO, 2: WARNING, 3: ERROR
+os.environ.setdefault("TF_ENABLE_ONEDNN_OPTS", "0")
+os.environ.setdefault("TRANSFORMERS_NO_TF", "1")  # Ensure Transformers does not try TensorFlow
+
 # Import real implementations
 from models.model_handler import ModelHandler
 from utils.language_detector import LanguageDetector
 from utils.evaluation import QAEvaluator
 
-# Suppress TensorFlow info logs and oneDNN notices
-os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")  # 0: all, 1: INFO, 2: WARNING, 3: ERROR
-os.environ.setdefault("TF_ENABLE_ONEDNN_OPTS", "0")
+# Suppress TensorFlow info logs and oneDNN notices (already set above)
 
 
 # Initialize session state with real implementations

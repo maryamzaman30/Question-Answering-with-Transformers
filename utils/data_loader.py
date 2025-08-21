@@ -1,7 +1,5 @@
 import json
-import pandas as pd
 from typing import Dict, List, Any, Optional
-import requests
 import os
 from datasets import load_dataset
 import logging
