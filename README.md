@@ -50,6 +50,12 @@ Make sure you have Python 3.8+ installed on your system.
    - `datasets` - SQuAD dataset loading
    - `pandas` - Data processing
 
+3. Create a virtual environment (recommended)
+   ```bash
+   python -m venv qa_env
+   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+   ```
+
 ### Running the Application
 
 Start the Streamlit app:
