@@ -1,0 +1,97 @@
+model_name,model_type,model_language,question_language,question,context,ground_truth,prediction,confidence,exact_match,f1_score,inference_time
+BERT-Large,BERT,English,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2","7,000,000 km2",0.5702813863754272,1.0,1.0,4.57989501953125
+BERT-Large,BERT,English,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,intelligence demonstrated by machines,0.9401013851165771,1.0,1.0,0.25896239280700684
+BERT-Large,BERT,English,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","stone, brick, tamped earth, wood, and other materials",0.5464821457862854,1.0,1.0,0.24991059303283691
+BERT-Large,BERT,English,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,العربية وأكبر مدنها,0.2453169971704483,0.0,0.0,0.49272942543029785
+BERT-Large,BERT,English,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,هو محاكاة عمليات الذكاء البشري,0.09127181023359299,0.0,0.7272727272727272,0.5258314609527588
+BERT-Large,BERT,English,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,هي رياضة,0.15484412014484406,0.0,0.0,0.5078670978546143
+DistilBERT,DistilBERT,English,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2","7,000,000 km2 (2,700,000 sq mi)",0.3046630322933197,0.0,0.5714285714285715,1.6293387413024902
+DistilBERT,DistilBERT,English,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,Artificial intelligence (AI) is intelligence demonstrated by machines,0.2830212712287903,0.0,0.6666666666666666,0.04244256019592285
+DistilBERT,DistilBERT,English,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","stone, brick, tamped earth, wood",0.6568160653114319,0.0,0.7692307692307693,0.04356956481933594
+DistilBERT,DistilBERT,English,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,جمهورية مصر العربية وأكبر مدنها,0.051189057528972626,0.0,0.0,0.07558965682983398
+DistilBERT,DistilBERT,English,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,الذكاء الاصطناعي,0.0013696629321202636,0.0,0.25,0.08336353302001953
+DistilBERT,DistilBERT,English,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,كرة القدم هي رياضة,0.0022179451771080494,0.0,0.0,0.08128881454467773
+RoBERTa,RoBERTa,English,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2","7,000,000 km2 (2,700,000 sq mi),",0.056100595742464066,0.0,0.5714285714285715,1.8250946998596191
+RoBERTa,RoBERTa,English,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,intelligence demonstrated by machines,0.6933678984642029,1.0,1.0,0.10479903221130371
+RoBERTa,RoBERTa,English,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","stone, brick, tamped earth, wood",0.6023650765419006,0.0,0.7692307692307693,0.11528182029724121
+RoBERTa,RoBERTa,English,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,القاهرة,0.0022934519220143557,1.0,1.0,0.2801375389099121
+RoBERTa,RoBERTa,English,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,البشري,0.0006909154471941292,0.0,0.2857142857142857,0.29981255531311035
+RoBERTa,RoBERTa,English,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,يتكون كل منهما من أحد عشر لاعباً.,0.00014965698937885463,0.0,0.6,0.29036593437194824
+ALBERT,ALBERT,English,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2","Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.46212148666381836
+ALBERT,ALBERT,English,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.46269750595092773
+ALBERT,ALBERT,English,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.04,0.4569880962371826
+ALBERT,ALBERT,English,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.44917726516723633
+ALBERT,ALBERT,English,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,1.0466992855072021
+ALBERT,ALBERT,English,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.7695960998535156
+mBERT,BERT,Multilingual,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2",moist broadleaf tropical rainforest in the Amazon biome that covers,0.0004175569338258356,0.0,0.0,2.871469259262085
+mBERT,BERT,Multilingual,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,"of ""intelligent agents"": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.",0.0007499937782995403,0.0,0.0,0.1088259220123291
+mBERT,BERT,Multilingual,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east",0.0009553370764479041,0.0,0.5714285714285715,0.1042482852935791
+mBERT,BERT,Multilingual,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أكبر المدن في أفريقيا والشرق الأوسط.,0.001060596201568842,0.0,0.0,0.09673619270324707
+mBERT,BERT,Multilingual,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,واكتساب المعلومات وقواعد استخدام المعلومات والتفكير المنطقي والتصحيح الذاتي.,0.0005091955536045134,0.0,0.0,0.11294913291931152
+mBERT,BERT,Multilingual,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,العالم,0.0008314733859151602,0.0,0.0,0.10857820510864258
+XLM-RoBERTa,XLM-RoBERTa,Multilingual,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2","Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.4580721855163574
+XLM-RoBERTa,XLM-RoBERTa,Multilingual,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.790823221206665
+XLM-RoBERTa,XLM-RoBERTa,Multilingual,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.04,0.4543907642364502
+XLM-RoBERTa,XLM-RoBERTa,Multilingual,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.44492030143737793
+XLM-RoBERTa,XLM-RoBERTa,Multilingual,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,0.4463939666748047
+XLM-RoBERTa,XLM-RoBERTa,Multilingual,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,"Error: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.",0.0,0.0,0.0,1.0278277397155762
+AraBERT,AraBERT,Arabic,English,How much area does the Amazon basin cover?,"The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazo...","7,000,000 km2","Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",0.0,0.0,0.0,0.6772387027740479
+AraBERT,AraBERT,Arabic,English,What is artificial intelligence?,"Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural in...",intelligence demonstrated by machines,"Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",0.0,0.0,0.0,0.3263518810272217
+AraBERT,AraBERT,Arabic,English,What materials was the Great Wall of China made of?,"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and ...","stone, brick, tamped earth, wood, and other materials","Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",0.0,0.0,0.04081632653061225,0.33365464210510254
+AraBERT,AraBERT,Arabic,Arabic,ما هي عاصمة مصر؟,القاهرة هي عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أ...,القاهرة,"Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",0.0,0.0,0.0,0.33597612380981445
+AraBERT,AraBERT,Arabic,Arabic,ما هو الذكاء الاصطناعي؟,الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الحاسوب. تشمل هذه العمليا...,محاكاة عمليات الذكاء البشري بواسطة الآلات,"Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",0.0,0.0,0.0,0.6650130748748779
+AraBERT,AraBERT,Arabic,Arabic,كم عدد اللاعبين في فريق كرة القدم؟,كرة القدم هي رياضة جماعية تلعب بين فريقين، يتكون كل منهما من أحد عشر لاعباً. تمارس من قبل 250 مليون ...,أحد عشر لاعباً,"Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",0.0,0.0,0.0,0.33772969245910645

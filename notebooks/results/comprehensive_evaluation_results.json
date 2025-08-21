@@ -1,0 +1,198 @@
+{
+  "BERT-Large": {
+    "model_config": {
+      "model_id": "bert-large-uncased-whole-word-masking-finetuned-squad",
+      "language": "English",
+      "type": "BERT",
+      "size": "Large",
+      "parameters": "340M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.5,
+      "f1_score": 0.6212121212121212,
+      "avg_confidence": 0.4247163074711959,
+      "avg_inference_time": 1.1025326649347942,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 1.0,
+      "f1_score": 1.0,
+      "avg_confidence": 0.6856216390927633,
+      "avg_inference_time": 1.6962560017903645
+    },
+    "arabic_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.2424242424242424,
+      "avg_confidence": 0.16381097584962845,
+      "avg_inference_time": 0.5088093280792236
+    }
+  },
+  "DistilBERT": {
+    "model_config": {
+      "model_id": "distilbert-base-cased-distilled-squad",
+      "language": "English",
+      "type": "DistilBERT",
+      "size": "Base",
+      "parameters": "66M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.3762210012210012,
+      "avg_confidence": 0.21654617241195714,
+      "avg_inference_time": 0.3259321451187134,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.6691086691086691,
+      "avg_confidence": 0.4148334562778473,
+      "avg_inference_time": 0.5717836221059164
+    },
+    "arabic_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.08333333333333333,
+      "avg_confidence": 0.01825888854606698,
+      "avg_inference_time": 0.08008066813151042
+    }
+  },
+  "RoBERTa": {
+    "model_config": {
+      "model_id": "deepset/roberta-base-squad2",
+      "language": "English",
+      "type": "RoBERTa",
+      "size": "Base",
+      "parameters": "125M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.3333333333333333,
+      "f1_score": 0.7043956043956044,
+      "avg_confidence": 0.22582793251785915,
+      "avg_inference_time": 0.4859152634938558,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 0.3333333333333333,
+      "f1_score": 0.7802197802197802,
+      "avg_confidence": 0.4506111902495225,
+      "avg_inference_time": 0.6817251841227213
+    },
+    "arabic_metrics": {
+      "exact_match": 0.3333333333333333,
+      "f1_score": 0.6285714285714286,
+      "avg_confidence": 0.00104467478619578,
+      "avg_inference_time": 0.29010534286499023
+    }
+  },
+  "ALBERT": {
+    "model_config": {
+      "model_id": "twmkn9/albert-base-v2-squad2",
+      "language": "English",
+      "type": "ALBERT",
+      "size": "Base",
+      "parameters": "12M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.006666666666666667,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.6078799565633138,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.013333333333333334,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.4606023629506429
+    },
+    "arabic_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.7551575501759847
+    }
+  },
+  "mBERT": {
+    "model_config": {
+      "model_id": "bert-base-multilingual-cased",
+      "language": "Multilingual",
+      "type": "BERT",
+      "size": "Base",
+      "parameters": "179M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.09523809523809525,
+      "avg_confidence": 0.0007540254882769659,
+      "avg_inference_time": 0.5671344995498657,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.1904761904761905,
+      "avg_confidence": 0.00070762926285776,
+      "avg_inference_time": 1.0281811555226643
+    },
+    "arabic_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "avg_confidence": 0.0008004217136961719,
+      "avg_inference_time": 0.10608784357706706
+    }
+  },
+  "XLM-RoBERTa": {
+    "model_config": {
+      "model_id": "deepset/xlm-roberta-base-squad2",
+      "language": "Multilingual",
+      "type": "XLM-RoBERTa",
+      "size": "Base",
+      "parameters": "278M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.006666666666666667,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.603738029797872,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.013333333333333334,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.5677620569864908
+    },
+    "arabic_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.6397140026092529
+    }
+  },
+  "AraBERT": {
+    "model_config": {
+      "model_id": "aubmindlab/bert-base-arabertv2-finetuned-squadv1",
+      "language": "Arabic",
+      "type": "AraBERT",
+      "size": "Base",
+      "parameters": "136M"
+    },
+    "overall_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.006802721088435375,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.4459940195083618,
+      "total_examples": 6
+    },
+    "english_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.01360544217687075,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.44574840863545734
+    },
+    "arabic_metrics": {
+      "exact_match": 0.0,
+      "f1_score": 0.0,
+      "avg_confidence": 0.0,
+      "avg_inference_time": 0.4462396303812663
+    }
+  }
+}

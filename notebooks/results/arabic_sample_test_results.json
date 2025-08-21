@@ -1,0 +1,30 @@
+{
+  "AraBERT": {
+    "answer": "Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",
+    "confidence": 0.0,
+    "exact_match": 0.0,
+    "f1_score": 0.0,
+    "inference_time": 0.3367156982421875
+  },
+  "Multilingual BERT": {
+    "answer": "عاصمة جمهورية مصر العربية وأكبر مدنها. تقع على ضفاف نهر النيل في شمال مصر، وهي واحدة من أكبر المدن في",
+    "confidence": 0.0012000183342024684,
+    "exact_match": 0.0,
+    "f1_score": 0.0,
+    "inference_time": 1.9157042503356934
+  },
+  "XLM-RoBERTa": {
+    "answer": "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+    "confidence": 0.0,
+    "exact_match": 0.0,
+    "f1_score": 0.0,
+    "inference_time": 1.2268891334533691
+  },
+  "mBERT QA": {
+    "answer": "القاهرة",
+    "confidence": 0.9613697528839111,
+    "exact_match": 1.0,
+    "f1_score": 1.0,
+    "inference_time": 3.2105722427368164
+  }
+}

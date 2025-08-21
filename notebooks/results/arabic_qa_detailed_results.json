@@ -1,0 +1,82 @@
+{
+  "AraBERT": {
+    "exact_match": 0.0,
+    "f1_score": 0.0,
+    "avg_confidence": 0.0,
+    "avg_inference_time": 0.3935853004455566,
+    "sample_predictions": [
+      "Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",
+      "Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",
+      "Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",
+      "Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.",
+      "Error: aubmindlab/bert-base-arabertv2-finetuned-squadv1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`."
+    ],
+    "sample_ground_truths": [
+      "صحفي وإعلامي",
+      "حمزة خاشقجي (13 أكتوبر 1958، المدينة المنورة - 2 أكتوبر 2018)،",
+      "المدينة المنورة",
+      "واشنطن بوست",
+      "وُصف في الصحف وأجهزة الاعلام العالمية بأنه \"وفيّ للدولة السعودية\" و\"منتقد لسياساتها\"."
+    ]
+  },
+  "Multilingual BERT": {
+    "exact_match": 0.0,
+    "f1_score": 0.1331082844332945,
+    "avg_confidence": 0.00024526395834982394,
+    "avg_inference_time": 0.20772189617156983,
+    "sample_predictions": [
+      "وإعلامي",
+      "وإعلامي",
+      "وإعلامي",
+      "وإعلامي",
+      "وإعلامي"
+    ],
+    "sample_ground_truths": [
+      "صحفي وإعلامي",
+      "حمزة خاشقجي (13 أكتوبر 1958، المدينة المنورة - 2 أكتوبر 2018)،",
+      "المدينة المنورة",
+      "واشنطن بوست",
+      "وُصف في الصحف وأجهزة الاعلام العالمية بأنه \"وفيّ للدولة السعودية\" و\"منتقد لسياساتها\"."
+    ]
+  },
+  "XLM-RoBERTa": {
+    "exact_match": 0.0,
+    "f1_score": 0.0007692307692307692,
+    "avg_confidence": 0.0,
+    "avg_inference_time": 0.5017082738876343,
+    "sample_predictions": [
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one."
+    ],
+    "sample_ground_truths": [
+      "صحفي وإعلامي",
+      "حمزة خاشقجي (13 أكتوبر 1958، المدينة المنورة - 2 أكتوبر 2018)،",
+      "المدينة المنورة",
+      "واشنطن بوست",
+      "وُصف في الصحف وأجهزة الاعلام العالمية بأنه \"وفيّ للدولة السعودية\" و\"منتقد لسياساتها\"."
+    ]
+  },
+  "mBERT QA": {
+    "exact_match": 0.18,
+    "f1_score": 0.44421769733534433,
+    "avg_confidence": 0.5321527974307537,
+    "avg_inference_time": 0.21934079647064209,
+    "sample_predictions": [
+      "صحفي وإعلامي سعودي",
+      "2 أكتوبر 2018",
+      "المدينة المنورة",
+      "واشنطن بوست",
+      "\"وفيّ للدولة السعودية\" و\"منتقد لسياساتها\""
+    ],
+    "sample_ground_truths": [
+      "صحفي وإعلامي",
+      "حمزة خاشقجي (13 أكتوبر 1958، المدينة المنورة - 2 أكتوبر 2018)،",
+      "المدينة المنورة",
+      "واشنطن بوست",
+      "وُصف في الصحف وأجهزة الاعلام العالمية بأنه \"وفيّ للدولة السعودية\" و\"منتقد لسياساتها\"."
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "BERT": {
+    "exact_match": 0.81,
+    "f1_score": 0.8717619047619047,
+    "avg_confidence": 0.8256023818254471,
+    "avg_inference_time": 5.060782260894776,
+    "sample_predictions": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California",
+      "Denver Broncos",
+      "gold",
+      "golden anniversary",
+      "February 7, 2016",
+      "American Football Conference",
+      "golden anniversary",
+      "American Football Conference"
+    ],
+    "sample_ground_truths": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Santa Clara, California",
+      "Denver Broncos",
+      "gold",
+      "\"golden anniversary\"",
+      "February 7, 2016",
+      "American Football Conference",
+      "\"golden anniversary\"",
+      "American Football Conference"
+    ]
+  },
+  "DistilBERT": {
+    "exact_match": 0.7,
+    "f1_score": 0.7726428571428572,
+    "avg_confidence": 0.7688723686337471,
+    "avg_inference_time": 1.00633709192276,
+    "sample_predictions": [
+      "Error: (ReadTimeoutError(\"HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out. (read timeout=10)\"), '(Request ID: 82aad416-0c43-442a-81a4-bf548bbf491d)')",
+      "Carolina Panthers",
+      "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California",
+      "Carolina Panthers",
+      "gold",
+      "golden anniversary",
+      "February 7, 2016",
+      "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference",
+      "golden anniversary",
+      "American Football Conference"
+    ],
+    "sample_ground_truths": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Santa Clara, California",
+      "Denver Broncos",
+      "gold",
+      "\"golden anniversary\"",
+      "February 7, 2016",
+      "American Football Conference",
+      "\"golden anniversary\"",
+      "American Football Conference"
+    ]
+  },
+  "RoBERTa": {
+    "exact_match": 0.84,
+    "f1_score": 0.8724285714285714,
+    "avg_confidence": 0.7268486298527569,
+    "avg_inference_time": 1.5465696668624878,
+    "sample_predictions": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California",
+      "Denver Broncos",
+      "gold",
+      "golden anniversary",
+      "February 7, 2016",
+      "American Football Conference",
+      "golden anniversary",
+      "American Football Conference"
+    ],
+    "sample_ground_truths": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Santa Clara, California",
+      "Denver Broncos",
+      "gold",
+      "\"golden anniversary\"",
+      "February 7, 2016",
+      "American Football Conference",
+      "\"golden anniversary\"",
+      "American Football Conference"
+    ]
+  },
+  "ALBERT": {
+    "exact_match": 0.0,
+    "f1_score": 0.002264914054600607,
+    "avg_confidence": 0.0,
+    "avg_inference_time": 0.6360049748420715,
+    "sample_predictions": [
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one.",
+      "Error: Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece installed to convert a slow tokenizer to a fast one."
+    ],
+    "sample_ground_truths": [
+      "Denver Broncos",
+      "Carolina Panthers",
+      "Santa Clara, California",
+      "Denver Broncos",
+      "gold",
+      "\"golden anniversary\"",
+      "February 7, 2016",
+      "American Football Conference",
+      "\"golden anniversary\"",
+      "American Football Conference"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+Category,Model,Reason,Use_Case
+Best Overall Performance,RoBERTa,Highest F1 score (0.704) across all languages,General multilingual QA applications
+Most Efficient,RoBERTa,Best performance/speed ratio (1.450),Real-time applications requiring fast inference
+Best for English,BERT-Large,Highest English F1 score (1.000),English-only QA applications
+Best for Arabic,RoBERTa,Highest Arabic F1 score (0.629),Arabic-specific QA applications
+Most Parameter Efficient,DistilBERT,Best performance per parameter (0.0057),Resource-constrained environments
