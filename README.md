@@ -25,6 +25,9 @@ A comprehensive question answering system built with Streamlit that supports bot
 - **Sample Questions**: Pre-loaded examples to test the system
 - **Real-time Model Loading**: Models are downloaded and cached for fast subsequent use
 
+- Link to App Online - 
+- Link to Video Demo - https://youtu.be/T1uwcs-tU5E
+
 ## 🚀 Getting Started
 
 ### Prerequisites
