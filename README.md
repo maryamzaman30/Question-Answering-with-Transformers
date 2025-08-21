@@ -26,7 +26,7 @@ A comprehensive question answering system built with Streamlit that supports bot
 - **Real-time Model Loading**: Models are downloaded and cached for fast subsequent use
 
 
-- Link to App Online - 
+- Link to App Online - https://maryamzaman30-question-answering-with-transformers-app-3isrks.streamlit.app/
 - Link to Video Demo - https://youtu.be/T1uwcs-tU5E
 
 ## 🚀 Getting Started
