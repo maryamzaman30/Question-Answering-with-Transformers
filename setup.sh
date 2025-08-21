@@ -1,19 +1,24 @@
 #!/bin/bash
 
-# Install Python 3.10 if not already installed
-if ! command -v python3.10 &> /dev/null; then
-    echo "Installing Python 3.10..."
-    apt-get update
-    apt-get install -y python3.10 python3.10-venv
-fi
+# Update and install system dependencies
+echo "Updating system packages..."
+apt-get update
+apt-get install -y python3-pip python3-venv
 
-# Create and activate virtual environment
-python3.10 -m venv venv
-source venv/bin/activate
+# Create virtual environment
+echo "Creating virtual environment..."
+python3 -m venv /app/venv
+source /app/venv/bin/activate
 
-# Install dependencies
-pip install --upgrade pip
+# Upgrade pip and install wheel
+python -m pip install --upgrade pip wheel
+
+# Install requirements
+echo "Installing Python dependencies..."
 pip install -r requirements.txt
 
-# Make sure the script is executable
-chmod +x setup.sh
+# Install Streamlit explicitly
+pip install streamlit==1.48.1
+
+# Make scripts executable
+chmod +x setup.sh start.sh
