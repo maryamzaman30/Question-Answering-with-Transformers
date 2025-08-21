@@ -60,7 +60,7 @@ Make sure you have Python 3.8+ installed on your system.
 
 Start the Streamlit app:
 ```bash
-streamlit run app.py --server.port 5000
+streamlit run app.py
 ```
 
 The application will open in your browser at `http://localhost:5000` or `http://localhost:8501`
