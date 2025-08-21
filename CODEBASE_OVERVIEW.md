@@ -92,12 +92,12 @@
    python cli.py
    ```
 
-- Example Context & Question 
+- Example Context & Question (For English)
    ```bash
    python cli.py --context  "The Amazon rainforest, also known as Amazonia, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km2 (2,700,000 sq mi), of which 5,500,000 km2 (2,100,000 sq mi) are covered by the rainforest." --question "How much area does the Amazon basin cover?"
    ```
 
-   - Example Context & Question 
+- Example Context & Question (For Arabic)
    ```bash
     python cli.py --context  "الذكاء الاصطناعي (AI) هو قدرة الأنظمة الحاسوبية على أداء مهام ترتبط عادةً بالذكاء البشري، مثل التعلم، والتفكير، وحل المشكلات، والإدراك، واتخاذ القرارات. وهو مجال بحثي في علوم الحاسوب يُطوّر ويدرس أساليب وبرامج تُمكّن الآلات من إدراك بيئتها واستخدام التعلم والذكاء لاتخاذ إجراءات تُعزز فرصها في تحقيق الأهداف المحددة." --question "ما هو الذكاء الاصطناعي؟"
    ```
